@@ -24,7 +24,7 @@ public class Util {
         int[][] array = new int[a][b];
         for (int i = 0; i < a; i++) {
             for (int j = 0; j < b; j++) {
-                array[i][j] = (int) (Math.random() * 100);
+                array[i][j] = (int) ((Math.random() * 10)-10);
             }
         }
         return array;
