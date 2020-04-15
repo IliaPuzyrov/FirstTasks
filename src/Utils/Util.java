@@ -24,14 +24,27 @@ public class Util {
         int[][] array = new int[a][b];
         for (int i = 0; i < a; i++) {
             for (int j = 0; j < b; j++) {
-                array[i][j] = (int) ((Math.random() * 10)-10);
+                array[i][j] = (int) ((Math.random() * 20) - 10);
             }
         }
         return array;
     }
 
-    public static void printDouble(int[][] a) {
-        System.out.println("Dvumerniy massiv");
+    public static void printDvumern(int[][] a) {
+        System.out.println("двумерный массив");
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+
+                System.out.print(a[i][j] + "\t");
+            }
+            System.out.println();
+        }
+
+
+    }
+
+    public static void printDouble(double[][] a) {
+        System.out.println("двумерный массив");
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[i].length; j++) {
 
