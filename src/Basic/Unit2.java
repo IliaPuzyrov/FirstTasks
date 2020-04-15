@@ -10,12 +10,12 @@ public class Unit2 {
       double k;
       int b=60;
       int c= 3600;
-      int d= Util.scan("vvedite chislo seclo sekund");
+      int d= Util.scan("введите количество секунд");
       h=d/c;
       k=d%c;
       m=(int)(k/b);
       s=(int)(k%b);
-        System.out.println(h+"chasy"+m+"minuty"+s+"secundy");
+        System.out.println(h+"часы"+m+"минуты"+s+"секунды");
 
 
 

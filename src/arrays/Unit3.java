@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Unit3 {
     public static void main(String[] args) {
-        int n = Util.scan("vvedite razmer massiva");
+        int n = Util.scan("введите размер массивва");
         int[] i = Util.array(n);
         Util.print(i);
         System.out.println(oddArrayMaker(i));

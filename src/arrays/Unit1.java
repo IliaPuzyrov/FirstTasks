@@ -4,11 +4,11 @@ import Utils.Util;
 
 public class Unit1 {
     public static void main(String[] args) {
-        int size = Util.scan("Vvedi razmer massiva: ");
+        int size = Util.scan("введите размер массива: ");
         int[] array = Util.array(size);
         Util.print(array);
         int[] newArray = evenOddMaker(array);
-        System.out.print("New ");
+        System.out.print("новый ");
         Util.print(newArray);
 
 

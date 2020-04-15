@@ -4,8 +4,8 @@ import Utils.Util;
 
 public class Unit4 {
     public static void main(String[] args) {
-        int a = Util.scan("Vvedite kolichestvo strok");
-        int b = Util.scan("Vvedite kolichestvo stolbcov");
+        int a = Util.scan("введите количество строк");
+        int b = Util.scan("введите количество столбцов");
         int[][] array = Util.arraysOfArrays(a, b);
         Util.printDvumern(array);
         System.out.println("сумма равна " + findDobleSum(array));

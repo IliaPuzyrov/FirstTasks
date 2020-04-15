@@ -11,16 +11,16 @@ public class Unit1 {
             case 'i':
             case 'o':
             case 'u':
-                System.out.println("glasniye");
+                System.out.println("гласные");
                 break;
             case 'y':
             case 'w':
-                System.out.println("uslouno glasnye");
+                System.out.println("условно гласные");
                 break;
 
 
             default:
-                System.out.println("soglasniye");
+                System.out.println("согласные");
                 break;
         }
     }
