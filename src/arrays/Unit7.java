@@ -18,10 +18,7 @@ public class Unit7 {
             if (i == Math.pow(b, 2)) {
                 System.out.println("в данном массиве присутствует квадрат/ты этого числа: " + i);
 
-
             }
-
-
         }
     }
 }
