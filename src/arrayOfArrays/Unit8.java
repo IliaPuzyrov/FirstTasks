@@ -4,7 +4,7 @@ import Utils.Util;
 
 public class Unit8 {
     public static void main(String[] args) {
-        int a = Util.scan("введите размер матрицы");
+        int a = Util.scanInt("введите размер матрицы");
         double[][] array = new double[a][a];
         Util.printDouble(createArray(array));
     }

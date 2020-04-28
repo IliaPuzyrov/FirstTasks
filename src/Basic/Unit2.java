@@ -10,7 +10,7 @@ public class Unit2 {
       double k;
       int b=60;
       int c= 3600;
-      int d= Util.scan("введите количество секунд");
+      int d= Util.scanInt("введите количество секунд");
       h=d/c;
       k=d%c;
       m=(int)(k/b);

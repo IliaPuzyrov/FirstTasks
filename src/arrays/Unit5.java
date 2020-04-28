@@ -5,7 +5,7 @@ import Utils.Util;
 
 public class Unit5 {
     public static void main(String[] args) {
-        int a = Util.scan("введите размер массива");
+        int a = Util.scanInt("введите размер массива");
         int[] array = Util.array(a);
         Util.print(array);
         System.out.println("среднее арифметическое положительных чисел " + findSrArfPlo(array));

@@ -4,8 +4,8 @@ import Utils.Util;
 
 public class Unit9 {
     public static void main(String[] args) {
-        int a = Util.scan("введите количество строк");
-        int b = Util.scan("введите количество столбцов");
+        int a = Util.scanInt("введите количество строк");
+        int b = Util.scanInt("введите количество столбцов");
         int[][] array = Util.arraysOfArrays(a, b);
         Util.printDvumern(array);
         System.out.println("положительные элементы диагонали матрицы");

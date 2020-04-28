@@ -4,8 +4,8 @@ import Utils.Util;
 
 public class Unit7 {
     public static void main(String[] args) {
-        int b = Util.scan("введите число квадрат которого хотите найти в массиве");
-        int a = Util.scan("введите размер массива");
+        int b = Util.scanInt("введите число квадрат которого хотите найти в массиве");
+        int a = Util.scanInt("введите размер массива");
         int[] array = Util.array(a);
         Util.print(array);
         findSquare(array, b);

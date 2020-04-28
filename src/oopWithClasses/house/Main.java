@@ -18,7 +18,7 @@ public class Main {
     }
 
     private static void finByRooms(House house1, House house2, House house) {
-        int a = Util.scan("введите кол-во комнат  ");
+        int a = Util.scanInt("введите кол-во комнат  ");
         ArrayList<House> list = new ArrayList<>();
         System.out.println("Список квартир с заданным количеством комнат:");
         if (house1.getNumberRooms() >= a) {
@@ -38,7 +38,7 @@ public class Main {
     }
 
     private static List<House> findByFloor(House house1, House house2, House house) {
-        int a = Util.scan("введите этаж");
+        int a = Util.scanInt("введите этаж");
         List<House> list = new ArrayList<>();
         if (house1.getNumberRooms() >= a && house1.getFloor() < a) {
             list.add(house1);
@@ -56,7 +56,7 @@ public class Main {
     }
 
     private static List<House> findByS(House house1, House house2, House house) {
-        int a = Util.scan("введите желаемую площадь");
+        int a = Util.scanInt("введите желаемую площадь");
         List<House> list = new ArrayList<>();
         System.out.println("Список квартир с заданной площадью:");
         if (house1.getS() > a) {

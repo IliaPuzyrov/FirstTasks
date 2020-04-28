@@ -57,11 +57,16 @@ public class Util {
     }
 
 
-    public static int scan(String message) {
+    public static int scanInt(String message) {
         System.out.println(message);
         Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
 
+    }
+    public static String scanString(String message) {
+        System.out.println(message);
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
 
     }
 }

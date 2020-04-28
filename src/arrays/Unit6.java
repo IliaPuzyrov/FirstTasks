@@ -2,13 +2,11 @@ package arrays;
 
 import Utils.Util;
 
-import java.util.Random;
-
 public class Unit6 {
 
     public static void main(String[] args){
 
-        int size = Util.scan("введи размер массива: ");
+        int size = Util.scanInt("введи размер массива: ");
         int[] array = Util.array(size);
         Util.print(array);
             int n=0;

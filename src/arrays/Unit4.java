@@ -4,7 +4,7 @@ import Utils.Util;
 
 public class Unit4 {
     public static void main(String[] args) {
-        int a = Util.scan("введите рвзмер массива");
+        int a = Util.scanInt("введите рвзмер массива");
         int[] array = Util.array(a);
         Util.print(array);
         findElements(findSumma(array),array,a);
