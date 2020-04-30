@@ -7,7 +7,6 @@ public class Unit9 {
         int a = Util.scanInt("введите размер массива");
         int[] array = Util.array(a);
         Util.print(array);
-        swapMinAndMax(findMin(array), findMin(array));
 
     }
 
@@ -40,12 +39,6 @@ public class Unit9 {
         System.out.println(min);
         System.out.println("первенство минимального значения менялось" + count + "раз");
         return min;
-    }
 
-    public static int swapMinAndMax(int a, int b) {
-        if (a != b) {
-            a[] ==b[];
-
-        }
     }
 }
