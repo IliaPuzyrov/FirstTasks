@@ -23,10 +23,10 @@ public class Unit11 {
                 }
 
             }
-            System.out.println("элемент " + a + " встречается " + d + " раз\n");
 
-        }
+
+        }System.out.println("элемент " + a + " встречается " + d + " раз\n");
+
     }
-
 }
 

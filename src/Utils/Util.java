@@ -1,5 +1,6 @@
 package Utils;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Util {
@@ -63,10 +64,50 @@ public class Util {
         return scanner.nextInt();
 
     }
+
     public static String scanString(String message) {
         System.out.println(message);
         Scanner scanner = new Scanner(System.in);
         return scanner.nextLine();
 
+    }
+
+    public static void bubbleSort(int[] array) {
+        boolean a = false;
+        int b;
+        int c=0;
+        while (!a) {
+            a = true;
+            for (int i = 0; i < array.length - 1; i++) {
+                if (array[i] > array[i + 1]) {
+                    a = false;
+
+                    b = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = b;
+                    c++;
+                }
+            }
+
+        }
+        System.out.println("отсортированый массив");
+        System.out.println(Arrays.toString(array));
+        System.out.println(c+"раз");
+    }
+
+    public static void sortChoice(int[] array) {
+        for (int min = 0; min < array.length - 1; min++) {
+            int a = min;
+            for (int j = min + 1; j < array.length; j++) {
+                if (array[j] < array[a]) {
+                    a = j;
+                }
+            }
+            int b = array[min];
+            array[min] = array[a];
+            array[a] = b;
+        }
+        System.out.println("отсортированый массив");
+        System.out.println(Arrays.toString(array));
     }
 }

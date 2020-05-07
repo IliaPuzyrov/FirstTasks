@@ -43,13 +43,10 @@ public class Unit10 {
     }
 
     private static void a(int[] array, int min) {
-        int[] result = new int[array.length - 1]; // Array which will contain the result.
-        int index = min; // Remove the value "2".
-
-// Copy the elements at the left of the index.
+        int[] result = new int[array.length - 1];
+        int index = min;
         System.arraycopy(array, 0, result, 0, index);
-// Copy the elements at the right of the index.
-        System.arraycopy(array, index + 1, result, index, array.length - index - 1);
+       System.arraycopy(array, index + 1, result, index, array.length - index - 1);
 
     }
 
