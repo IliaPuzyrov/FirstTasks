@@ -2,7 +2,7 @@ package arrays;
 
 import Utils.Util;
 
-public class Unit8 {
+public class Unit8 {//работает
     public static void main(String[] args) {
         int a = Util.scanInt("введите длину массива: ");
         int[] array = Util.array(a);

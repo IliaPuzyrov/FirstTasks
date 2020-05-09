@@ -2,7 +2,7 @@ package arrayOfArrays;
 
 import Utils.Util;
 
-public class Unit10 {
+public class Unit10 {//работает
     public static void main(String[] args) {
         int a = 10;
         int b = 20;

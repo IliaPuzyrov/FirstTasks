@@ -1,6 +1,6 @@
 package arrayOfArrays;
 
-public class Unit12 {
+public class Unit12 {//не понимаю как работает,спросить у О.Б.
     public static void main(String[] args) {int N = 5;
         short matr[][] = new short[N][N];
 

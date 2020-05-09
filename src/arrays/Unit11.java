@@ -2,7 +2,7 @@ package arrays;
 
 import Utils.Util;
 
-public class Unit11 {
+public class Unit11 {//работает с переменным успехом,как найти наименьшее.спросить у О.Б.
     public static void main(String[] args) {
         int a = Util.scanInt("введите размер массива");
         int[] array = Util.array(a);
@@ -13,7 +13,6 @@ public class Unit11 {
     private static void findTheMostCommonNumber(int[] array) {
         int a = 0;
         int d = 0;
-        int c = 0;
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length - 1; j++) {
                 if (array[i] == array[j]) {
