@@ -10,7 +10,6 @@ public class Abiturient {
         this.mark2 = mark2;
         this.mark3 = mark3;
     }
-
     public int getMark1() {
         return mark1;
     }
