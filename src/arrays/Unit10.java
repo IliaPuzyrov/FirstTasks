@@ -2,7 +2,7 @@ package arrays;
 
 import Utils.Util;
 
-public class Unit10 {//какая то фигня получается.спросить у О.Б.
+public class Unit10 {//работает.не понимаю как.спросить у О.Б.
 
     public static void main(String[] args) {
         int a = Util.scanInt("введите размер массива");
