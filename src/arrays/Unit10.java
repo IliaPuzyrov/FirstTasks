@@ -2,14 +2,14 @@ package arrays;
 
 import Utils.Util;
 
-public class Unit10 {//работает.не понимаю как.спросить у О.Б.
+public class Unit10 {//работает,происходит чтото непонятное.не понимаю как.спросить у О.Б.
 
     public static void main(String[] args) {
         int a = Util.scanInt("введите размер массива");
         int[] array = Util.array(a);
         Util.print(array);
-        System.out.println("минимальное" + findMin(array));
-        System.out.println(deleteMin(findMin(array),array));
+        System.out.println("минимальное ." + findMin(array));
+        deleteMin(findMin(array),array);
 
     }
 
