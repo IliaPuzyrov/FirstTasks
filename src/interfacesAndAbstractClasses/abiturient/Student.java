@@ -1,4 +1,4 @@
-package interfacesAndAbstractClasses.Abiturient;
+package interfacesAndAbstractClasses.abiturient;
 
 public abstract class Student implements Abiturient{
     @Override
@@ -16,5 +16,8 @@ public abstract class Student implements Abiturient{
     public void sittingInMobilePhone() {
         System.out.println("не играй на уроках");
 
+    }
+    public void sign(){
+        System.out.println("ла ла ла");
     }
 }

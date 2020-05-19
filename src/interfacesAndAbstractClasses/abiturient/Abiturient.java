@@ -1,4 +1,4 @@
-package interfacesAndAbstractClasses.Abiturient;
+package interfacesAndAbstractClasses.abiturient;
 
 public interface Abiturient {
    void learn();

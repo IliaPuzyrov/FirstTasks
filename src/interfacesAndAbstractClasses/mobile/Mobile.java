@@ -1,4 +1,4 @@
-package interfacesAndAbstractClasses.Mobile;
+package interfacesAndAbstractClasses.mobile;
 
 public interface Mobile  {
     void settings();

@@ -1,30 +1,12 @@
-package interfacesAndAbstractClasses.Abiturient;
+package interfacesAndAbstractClasses.abiturient;
 
-public class StudentExtramural extends Student  {
+public class StudentExtramural extends Student {
     private String name;
     private int yearOfBirthday;
-
-    @Override
-    public void learn() {
-        super.learn();
-        System.out.println("будь отличником");
-    }
-
-    @Override
-    public void doingHomework() {
-        super.doingHomework();
-        System.out.println("красава чувак");
-    }
 
     public StudentExtramural(String name, int yearOfBirthday) {
         this.name = name;
         this.yearOfBirthday = yearOfBirthday;
-    }
-
-    @Override
-    public void sittingInMobilePhone() {
-        super.sittingInMobilePhone();
-        System.out.println("будешь блогером!");
     }
 
     public String getName() {
@@ -49,5 +31,28 @@ public class StudentExtramural extends Student  {
                 "name='" + name + '\'' +
                 ", yearOfBirthday=" + yearOfBirthday +
                 '}';
+    }
+
+    @Override
+    public void learn() {
+        super.learn();
+        System.out.println("будь отличником");
+    }
+
+    @Override
+    public void doingHomework() {
+        super.doingHomework();
+        System.out.println("красава чувак");
+    }
+
+    @Override
+    public void sittingInMobilePhone() {
+        super.sittingInMobilePhone();
+        System.out.println("будешь блогером!");
+    }
+
+    @Override
+    public void sign() {
+        super.sign();
     }
 }

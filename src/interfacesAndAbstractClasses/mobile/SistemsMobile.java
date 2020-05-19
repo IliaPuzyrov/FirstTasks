@@ -1,6 +1,6 @@
-package interfacesAndAbstractClasses.Mobile;
+package interfacesAndAbstractClasses.mobile;
 
-public abstract class sistemsMobile implements Mobile {
+public abstract class SistemsMobile implements Mobile {
     @Override
     public void settings() {
         System.out.println("настраиваются самостоятельно");

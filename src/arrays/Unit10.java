@@ -41,7 +41,7 @@ public class Unit10 {//работает,происходит чтото непо
             searchKey = min;
             for (j = 0; j < n; j++) {
                 if (arr[j] == searchKey) {
-                    break;
+                    continue;
                 }
                 for (int k = j; k < n; k++) {
                     arr[k] = arr[k + 1];
