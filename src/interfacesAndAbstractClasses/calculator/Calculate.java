@@ -1,23 +1,24 @@
 package interfacesAndAbstractClasses.calculator;
 
 public interface Calculate {
-    int findComposition(int scan);
 
-    int makeDivision(int scan);
+    int findComposition(int a, int b);
 
-    int findSum(int scan);
+    int makeDivision(int a, int b);
 
-    int findDifference(int scan);
+    int findSum(int a, int b);
 
-    double findSqaredNumber(int scan);
+    int findDifference(int a, int b);
 
-    double findSin(int scan);
+    double findSqaredNumber(int a,int b);
 
-    double findCos(int scan);
+    double findSin(double a);
 
-    double findTg(int scan);
+    double findCos(double a);
 
-    double findCtg(int scan);
+    double findTg(double a);
 
-    double findRootOrNumber(int scan);
+    double findCtg(double a);
+
+    double findRootOrNumber(int a);
 }
