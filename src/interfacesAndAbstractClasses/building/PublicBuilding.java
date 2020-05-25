@@ -9,6 +9,7 @@ public abstract class PublicBuilding implements Building {
 
     @Override
     public void shatter() {
+
         System.out.println("kr-kr");
     }
 
