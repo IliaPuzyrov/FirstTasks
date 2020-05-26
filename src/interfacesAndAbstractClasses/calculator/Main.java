@@ -12,6 +12,34 @@ public class Main {
         if (selectFunction == 1) {
             System.out.println("Результат: " + functions.findComposition(a, b));
         }
+        if (selectFunction == 2) {
+            System.out.println("Результат: " + functions.makeDivision(a, b));
+        }
+        if (selectFunction == 3) {
+            System.out.println("Результат: " + functions.findSum(a, b));
+        }
+        if (selectFunction == 4) {
+            System.out.println("Результат: " + functions.findDifference(a, b));
+        }
+        if (selectFunction == 5) {
+            System.out.println("Результат: " + functions.findSqaredNumber(a, b));
+        }
+        if (selectFunction == 6) {
+            System.out.println("Результат: " + functions.findSin(a));
+        }
+        if (selectFunction == 7) {
+            System.out.println("Результат: " + functions.findCos(a));
+        }
+        if (selectFunction == 8) {
+            System.out.println("Результат: " + functions.findTg(a));
+        }
+        if (selectFunction == 9) {
+            System.out.println("Результат: " + functions.findCtg(a));
+        }
+        if (selectFunction == 10) {
+            System.out.println("Результат: " + functions.findRootOrNumber(a));
+        }
 
     }
+
 }
